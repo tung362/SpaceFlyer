@@ -6,9 +6,6 @@
 #include <cstring>
 
 using namespace sfw;
-using std::cin;
-using std::cout;
-using std::endl;
 
 //Referenced from http://stackoverflow.com/questions/2259476/rotating-a-point-about-another-point-2d
 Vector2 RotatePoint(float CenterPointX, float CenterPointY, float Angle, Vector2 NewPoint)

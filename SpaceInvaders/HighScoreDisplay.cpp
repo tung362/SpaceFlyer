@@ -9,9 +9,6 @@
 #include <string>
 
 using namespace sfw;
-using std::cin;
-using std::cout;
-using std::endl;
 
 HighScoreDisplay::HighScoreDisplay()
 {

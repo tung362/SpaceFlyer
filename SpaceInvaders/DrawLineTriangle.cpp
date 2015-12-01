@@ -5,9 +5,6 @@
 #include <cstring>
 
 using namespace sfw;
-using std::cin;
-using std::cout;
-using std::endl;
 
 void DrawTriangle(Vector2 Position, float Height, float Width)
 {

@@ -8,9 +8,6 @@
 #include <fstream>
 
 using namespace sfw;
-using std::cin;
-using std::cout;
-using std::endl;
 
 NamePicker::NamePicker()
 {

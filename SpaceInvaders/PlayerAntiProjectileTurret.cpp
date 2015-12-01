@@ -9,9 +9,6 @@
 #include <cstring>
 
 using namespace sfw;
-using std::cin;
-using std::cout;
-using std::endl;
 
 PlayerAntiProjectileTurret::PlayerAntiProjectileTurret()
 {

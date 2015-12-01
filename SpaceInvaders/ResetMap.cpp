@@ -7,9 +7,6 @@
 #include <fstream>
 
 using namespace sfw;
-using std::cin;
-using std::cout;
-using std::endl;
 
 void ResetMap(GlobalData* gd, bool CreateText)
 {
@@ -20,7 +17,7 @@ void ResetMap(GlobalData* gd, bool CreateText)
 		HighScoreFile.open("HighScores.txt", std::fstream::app);
 		if (HighScoreFile.is_open())
 		{
-			HighScoreFile << "Points: " << (gd)->SpaceInvadersPoints << " Wave: " << (gd)->SpaceInvaderWaveCount << " Shots Count: " << (gd)->SpaceInvadersShotsCount << endl;
+			HighScoreFile << "Points: " << (gd)->SpaceInvadersPoints << " Wave: " << (gd)->SpaceInvaderWaveCount << " Shots Count: " << (gd)->SpaceInvadersShotsCount << std::endl;
 			HighScoreFile.close();
 		}
 	}

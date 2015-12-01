@@ -5,9 +5,6 @@
 #include <cstring>
 
 using namespace sfw;
-using std::cin;
-using std::cout;
-using std::endl;
 
 void DrawBox(Vector2 Position, float Height, float Width)
 {

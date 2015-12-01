@@ -7,9 +7,6 @@
 #include <sstream>
 
 using namespace sfw;
-using std::cin;
-using std::cout;
-using std::endl;
 
 PointsCount::PointsCount()
 {
